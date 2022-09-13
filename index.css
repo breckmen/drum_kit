@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: lightcyan;
+}
+
+/* This is the drum kit img --------------------------------------------------------------------------------------------- */
+.drum {
+    width: 50%;
+    display: block;
+    margin: 3% auto;
+}
+
+/* This is the style for the keys --------------------------------------------------------------------------------------- */
+  
+.all {
+    margin: 10% auto;
+}
+  
+.button {
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    color: lightcoral;
+    opacity: 0.9;
+}
+
+.w {
+    transform: translateY(-625px) translateX(500px);
+}
+
+.a {
+    transform: translateY(-480px) translateX(470px);
+}
+
+.s {
+    transform: translateY(-420px) translateX(640px);
+}
+
+.d {
+    transform: translateY(-500px) translateX(650px);
+}
+
+.l {
+    transform: translateY(-250px) translateX(220px);
+}
